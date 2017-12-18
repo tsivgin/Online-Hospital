@@ -106,8 +106,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="blog.html">blog</a></li>
 						<li><a href="contact.html">contact</a></li>
                            <li> |</li>
-                         <%--  <li style="font-size:smaller"><a href="login.aspx">Administration | </a></li>
-                           <li style="font-size:smaller"><a href="login.aspx">Personnel Controls |</a></li>--%>
+                       
 
 					</ul>
 		   	</div>
