@@ -9,3 +9,7 @@ C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\b
 C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.pdb
 C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.dll
 C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.pdb
+C:\Users\Selin\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.dll
+C:\Users\Selin\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.pdb
+C:\Users\Selin\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.dll
+C:\Users\Selin\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.pdb

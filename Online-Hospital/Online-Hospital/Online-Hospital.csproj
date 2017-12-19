@@ -66,6 +66,7 @@
     <Content Include="Admin\css\style.css" />
     <Content Include="Admin\default.aspx" />
     <Content Include="Admin\ListDoctor.aspx" />
+    <Content Include="Admin\ListPolicinic.aspx" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\hover.css" />
     <Content Include="Content\css\style.css" />
@@ -115,6 +116,7 @@
     <Content Include="Patient\css\images\thank.gif" />
     <Content Include="Patient\css\style.css" />
     <Content Include="Patient\default.aspx" />
+    <Content Include="Patient\LabResult.aspx" />
     <Content Include="Patient\ListAppointment.aspx" />
     <Content Include="Personnel\css\images\error.gif" />
     <Content Include="Personnel\css\images\header.gif" />
@@ -125,6 +127,8 @@
     <Content Include="Personnel\default.aspx" />
     <Content Include="Personnel\editappointment.aspx" />
     <Content Include="Personnel\editLabResult.aspx" />
+    <Content Include="Personnel\EnterLabResult.aspx" />
+    <Content Include="Register.aspx" />
     <Content Include="services.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -157,6 +161,13 @@
     <Compile Include="Admin\ListDoctor.aspx.designer.cs">
       <DependentUpon>ListDoctor.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\ListPolicinic.aspx.cs">
+      <DependentUpon>ListPolicinic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ListPolicinic.aspx.designer.cs">
+      <DependentUpon>ListPolicinic.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Database\database.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -185,6 +196,13 @@
     </Compile>
     <Compile Include="Patient\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\LabResult.aspx.cs">
+      <DependentUpon>LabResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient\LabResult.aspx.designer.cs">
+      <DependentUpon>LabResult.aspx</DependentUpon>
     </Compile>
     <Compile Include="Patient\ListAppointment.aspx.cs">
       <DependentUpon>ListAppointment.aspx</DependentUpon>
@@ -221,6 +239,13 @@
     <Compile Include="Personnel\editLabResult.aspx.designer.cs">
       <DependentUpon>editLabResult.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Personnel\EnterLabResult.aspx.cs">
+      <DependentUpon>EnterLabResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personnel\EnterLabResult.aspx.designer.cs">
+      <DependentUpon>EnterLabResult.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Personnel\personnel.Master.cs">
       <DependentUpon>personnel.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -229,6 +254,13 @@
       <DependentUpon>personnel.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="services.aspx.cs">
       <DependentUpon>services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
