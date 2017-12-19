@@ -106,6 +106,7 @@
     <Content Include="Content\js\responsiveslides.min.js" />
     <Content Include="Content\logo_tasarım1.png" />
     <Content Include="default.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="Personnel\css\images\error.gif" />
     <Content Include="Personnel\css\images\header.gif" />
     <Content Include="Personnel\css\images\nav.gif" />
@@ -145,6 +146,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="main.Master.cs">
       <DependentUpon>main.Master</DependentUpon>
