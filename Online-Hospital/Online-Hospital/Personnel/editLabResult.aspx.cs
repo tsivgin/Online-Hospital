@@ -11,7 +11,7 @@ using System.Data;
 
 namespace Online_Hospital.Personnel
 {
-    public partial class EnterLabResult : System.Web.UI.Page
+    public partial class editLabResult : System.Web.UI.Page
     {
         Database db = new Database();
 
@@ -69,7 +69,7 @@ namespace Online_Hospital.Personnel
             tckontrol.Visible = false;
             Control.Visible = false;
             Control2.Visible = true;
-
+            
             var tc = TC.Text;
             string query = "Select * from person where tc_no=" + Convert.ToInt64(tc);
             db.startDB();

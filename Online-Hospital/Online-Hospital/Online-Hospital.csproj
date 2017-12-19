@@ -114,6 +114,8 @@
     <Content Include="Personnel\css\images\thank.gif" />
     <Content Include="Personnel\css\style.css" />
     <Content Include="Personnel\default.aspx" />
+    <Content Include="Personnel\editappointment.aspx" />
+    <Content Include="Personnel\editLabResult.aspx" />
     <Content Include="services.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -167,6 +169,20 @@
     </Compile>
     <Compile Include="Personnel\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personnel\editappointment.aspx.cs">
+      <DependentUpon>editappointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personnel\editappointment.aspx.designer.cs">
+      <DependentUpon>editappointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personnel\editLabResult.aspx.cs">
+      <DependentUpon>editLabResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personnel\editLabResult.aspx.designer.cs">
+      <DependentUpon>editLabResult.aspx</DependentUpon>
     </Compile>
     <Compile Include="Personnel\personnel.Master.cs">
       <DependentUpon>personnel.Master</DependentUpon>

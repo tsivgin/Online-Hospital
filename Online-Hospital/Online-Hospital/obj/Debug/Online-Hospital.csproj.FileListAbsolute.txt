@@ -1,8 +1,3 @@
-C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.dll
-C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.pdb
-C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.csprojResolveAssemblyReference.cache
-C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.dll
-C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.pdb
 C:\Users\LENOVO\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.dll.config
 C:\Users\LENOVO\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.dll
 C:\Users\LENOVO\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.pdb
@@ -10,3 +5,7 @@ C:\Users\LENOVO\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital
 C:\Users\LENOVO\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.dll
 C:\Users\LENOVO\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.pdb
+C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.dll
+C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.pdb
+C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.dll
+C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.pdb
