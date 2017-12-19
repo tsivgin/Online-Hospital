@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Online_Hospital.Patient
+namespace Online_Hospital.Admin
 {
 
 
-    public partial class ListAppointment
+    public partial class ListDoctor
     {
     }
 }
