@@ -65,6 +65,7 @@
     <Content Include="Admin\css\images\thank.gif" />
     <Content Include="Admin\css\style.css" />
     <Content Include="Admin\default.aspx" />
+    <Content Include="Admin\ListDoctor.aspx" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\hover.css" />
     <Content Include="Content\css\style.css" />
@@ -147,6 +148,13 @@
     </Compile>
     <Compile Include="Admin\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ListDoctor.aspx.cs">
+      <DependentUpon>ListDoctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ListDoctor.aspx.designer.cs">
+      <DependentUpon>ListDoctor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Database\database.cs" />
     <Compile Include="default.aspx.cs">
