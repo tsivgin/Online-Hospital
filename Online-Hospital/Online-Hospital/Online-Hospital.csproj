@@ -115,6 +115,7 @@
     <Content Include="Patient\css\images\thank.gif" />
     <Content Include="Patient\css\style.css" />
     <Content Include="Patient\default.aspx" />
+    <Content Include="Patient\ListAppointment.aspx" />
     <Content Include="Personnel\css\images\error.gif" />
     <Content Include="Personnel\css\images\header.gif" />
     <Content Include="Personnel\css\images\nav.gif" />
@@ -184,6 +185,13 @@
     </Compile>
     <Compile Include="Patient\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\ListAppointment.aspx.cs">
+      <DependentUpon>ListAppointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient\ListAppointment.aspx.designer.cs">
+      <DependentUpon>ListAppointment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Patient\patient.Master.cs">
       <DependentUpon>patient.Master</DependentUpon>
