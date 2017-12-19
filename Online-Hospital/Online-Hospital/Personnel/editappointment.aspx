@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Personnel/personnel.Master" AutoEventWireup="true" CodeBehind="editappointment.aspx.cs" Inherits="Online_Hospital.Personnel.editappointment" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -26,7 +27,6 @@
                                 <asp:RequiredFieldValidator runat="server" ID="RequiredTC" ForeColor="Red" ControlToValidate="TC" ErrorMessage="Please fill the box."></asp:RequiredFieldValidator>
 
 
-                                <%--<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>--%>
                             </div>
                         </div>
                     </div>
@@ -38,12 +38,10 @@
                 <div class="form-group ">
                     <asp:Button ID="Control" runat="server" Text="Control" TabIndex="4" OnClick="Control_Click" CssClass="btn btn-primary btn-lg btn-block login-button" />
 
-                    <%--<a href="#" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Register</a>--%>
                 </div>
                 <div class="form-group ">
                     <asp:Button Visible="false" ID="Control2" runat="server" Text="Control" TabIndex="4" OnClick="Control2_Click" CssClass="btn btn-primary btn-lg btn-block login-button" />
 
-                    <%--<a href="#" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Register</a>--%>
                 </div>
 
 
@@ -58,20 +56,19 @@
                                 <asp:TextBox runat="server" ID="nowtime" CssClass="form-control" Enabled="false"></asp:TextBox>
                                 <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator1" ForeColor="Red" ControlToValidate="nowtime" ErrorMessage="Please fill the box."></asp:RequiredFieldValidator>
 
-                                <%--<input type="text" class="form-control" name="name" id="lastname"  placeholder="Enter your Last Name"/>--%>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="form-group" style="visibility:hidden">
+                    <div class="form-group" style="visibility: hidden">
                         <label for="name" class="cols-sm-2 control-label">Enter new Time</label>
                         <div class="cols-sm-10">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                                 <asp:TextBox runat="server" ID="newtime" placeholder="Enter new time" CssClass="form-control"></asp:TextBox>
-                                
-                                </div>
+
+                            </div>
                         </div>
                     </div>
 
@@ -83,19 +80,19 @@
                                 <asp:TextBox runat="server" ID="nowdate" CssClass="form-control" Enabled="false"></asp:TextBox>
                                 <asp:RequiredFieldValidator runat="server" ID="RequiredDate" ForeColor="Red" ControlToValidate="nowdate" ErrorMessage="Please fill the box."></asp:RequiredFieldValidator>
 
-                               </div>
+                            </div>
                         </div>
                     </div>
 
 
-                    
+
 
                     <div class="active">
                         <h6 class="orange">
                             <asp:Literal runat="server" ID="ltlrl_Calendar"></asp:Literal></h6>
                         <div class="active">
-                            <asp:Calendar ID="Calendar" runat="server" Visible="false"  OnSelectionChanged="Calendar_SelectionChanged" Width="353px" />
-                            
+                            <asp:Calendar ID="Calendar" runat="server" Visible="false" OnSelectionChanged="Calendar_SelectionChanged" Width="353px" />
+
                             SelectedDate="<%# DateTime.Today %>"
                             <h6 class="orange">
                                 <asp:Literal runat="server" ID="ltrl_SelectDate"></asp:Literal></h6>
@@ -124,9 +121,7 @@
 
                     <div class="form-group ">
                         <asp:Button ID="Savebtn" runat="server" Text="Save" TabIndex="4" OnClick="Savebtn_Click" CssClass="btn btn-primary btn-lg btn-block login-button" />
-
-                       <%--<a href="#" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Register</a>
-                   --%> </div>
+                    </div>
 
                 </asp:Panel>
             </div>

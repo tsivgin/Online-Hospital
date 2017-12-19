@@ -41,6 +41,11 @@ namespace Online_Hospital.Patient
 
         }
 
+        protected void listappointment_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+
+        }
+
 
     }
 }
