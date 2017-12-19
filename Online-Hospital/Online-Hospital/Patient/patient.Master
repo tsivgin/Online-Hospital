@@ -22,7 +22,7 @@
 	<div class="header-info">
 	  <div class="container">
 		<div class="logo">
-				<a href="index.html"><img src="../Content/images/logo.png" alt="" /></a>
+				<a href="index.html"><img src="../Content/logo_tasarım1.png" alt="" /></a>
 		</div>
 	             <div class="right">
             
@@ -44,7 +44,7 @@
 							<div class="menu">
 								<span class="menu-info"> </span>
 								<ul class="cl-effect-21">
-									<li><a href="dashbord.aspx" class="active">Dashboard</a></li>
+									<li><a href="default.aspx" class="active">Dashboard</a></li>
 									<li><a href="default.aspx">Book Appointment</a></li>
 								 	<li><a href="ListAppointment.aspx">List Appointment</a></li>
 									<li><a href="ListAppointment.aspx">Cancel an Appointment</a></li>

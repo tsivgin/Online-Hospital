@@ -27,7 +27,7 @@ namespace Online_Hospital.Patient
                 dt = db.SelectDataTable(cmd);
                 var x = dt.Rows[0][0].ToString();
 
-                query = "Select  DE.departmentname as Department, A.LabResult as LabResult  FROM LabResult as A INNER JOIN department as DE ON A.DepartmentID =  DE.DepartmentID WHERE Pid " + Convert.ToInt32(x);
+                query = "Select  DE.departmentname as Department, A.LabResult as LabResult  FROM LabResult as A INNER JOIN department as DE ON A.DepartmentID =  DE.DepartmentID WHERE Pid= " + Convert.ToInt32(x);
                 cmd = db.MySqlCommand(query);
                 dt = db.SelectDataTable(cmd);
                 labresult.DataSource = dt;
