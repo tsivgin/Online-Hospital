@@ -107,6 +107,13 @@
     <Content Include="Content\logo_tasarım1.png" />
     <Content Include="default.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="Patient\css\images\error.gif" />
+    <Content Include="Patient\css\images\header.gif" />
+    <Content Include="Patient\css\images\nav.gif" />
+    <Content Include="Patient\css\images\navigation.gif" />
+    <Content Include="Patient\css\images\thank.gif" />
+    <Content Include="Patient\css\style.css" />
+    <Content Include="Patient\default.aspx" />
     <Content Include="Personnel\css\images\error.gif" />
     <Content Include="Personnel\css\images\header.gif" />
     <Content Include="Personnel\css\images\nav.gif" />
@@ -163,6 +170,20 @@
     <Compile Include="main.Master.designer.cs">
       <DependentUpon>main.Master</DependentUpon>
     </Compile>
+    <Compile Include="Patient\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\patient.Master.cs">
+      <DependentUpon>patient.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient\patient.Master.designer.cs">
+      <DependentUpon>patient.Master</DependentUpon>
+    </Compile>
     <Compile Include="Personnel\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -205,6 +226,7 @@
     <Content Include="main.Master" />
     <Content Include="Admin\admin.Master" />
     <Content Include="Personnel\personnel.Master" />
+    <Content Include="Patient\patient.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -212,9 +234,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Patient\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
