@@ -14,3 +14,10 @@ C:\Users\Selin\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\
 C:\Users\Selin\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.dll
 C:\Users\Selin\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.pdb
 C:\Users\ASUS\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.csprojResolveAssemblyReference.cache
+C:\Users\02483959\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.dll.config
+C:\Users\02483959\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.dll
+C:\Users\02483959\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\bin\Online-Hospital.pdb
+C:\Users\02483959\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.csprojResolveAssemblyReference.cache
+C:\Users\02483959\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.csproj.CoreCompileInputs.cache
+C:\Users\02483959\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.dll
+C:\Users\02483959\Documents\GitHub\Online-Hospital\Online-Hospital\Online-Hospital\obj\Debug\Online-Hospital.pdb

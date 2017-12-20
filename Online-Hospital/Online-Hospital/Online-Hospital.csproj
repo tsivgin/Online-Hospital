@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -125,6 +127,7 @@
     <Content Include="Personnel\css\images\thank.gif" />
     <Content Include="Personnel\css\style.css" />
     <Content Include="Personnel\default.aspx" />
+    <Content Include="Personnel\doctorworks.aspx" />
     <Content Include="Personnel\editappointment.aspx" />
     <Content Include="Personnel\editLabResult.aspx" />
     <Content Include="Personnel\EnterLabResult.aspx" />
@@ -224,6 +227,13 @@
     </Compile>
     <Compile Include="Personnel\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personnel\doctorworks.aspx.cs">
+      <DependentUpon>doctorworks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personnel\doctorworks.aspx.designer.cs">
+      <DependentUpon>doctorworks.aspx</DependentUpon>
     </Compile>
     <Compile Include="Personnel\editappointment.aspx.cs">
       <DependentUpon>editappointment.aspx</DependentUpon>
