@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="personel.master.cs" Inherits="Online_Hospital_Final.Personnel.personel" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../Content/css/bootstrap.css" media="all" />
+    <link rel="stylesheet" href="../Content/css/style.css" media="all" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-info">
+                <div class="container">
+                    <div class="logo">
+                        <a href="default.aspx">
+                            <img src="../Content/images/logo.png" alt="" /></a>
+                    </div>
+                    <div class="right">
+
+                        <p>Welcome <a href="#"><strong>
+                            <asp:Literal runat="server" ID="ltrl_Username"></asp:Literal></strong></a></p>
+                        <p class="small-nav"><a href="#">Help</a> / <a href="#">Quick Info</a> /
+                            <asp:LinkButton ID="logout" runat="server" Text="Log Out" OnClick="logout_Click"></asp:LinkButton></p>
+
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <%-- end of header --%>
+
+        <%-- List menu --%>
+        <div class="container">
+            <div class="header-bottom">
+                <div class="menu">
+                    <span class="menu-info"></span>
+                    <ul class="cl-effect-21">
+                        <li><a href="editappointment.aspx" class="active">Edit Appointment</a></li>
+                        <li><a href="enterlabresult.aspx">Enter Lab Result</a></li>
+                        <li><a href="default.aspx">Edit Lab Result</a></li>
+                        <li><a href="default.aspx">Set Doctor Works</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <%-- end of list menu --%>
+
+
+        <div class="container" style="padding-top: 5em; margin: auto">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

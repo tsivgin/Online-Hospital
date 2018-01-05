@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="patient.master.cs" Inherits="Online_Hospital_Final.Patient.patient" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../Content/css/bootstrap.css" media="all" />
+    <link rel="stylesheet" href="../Content/css/style.css" media="all" />
+
+</head>
+<body>
+    
+    <!-- Shell -->
+<%--<div id="shell">--%>
+	<form id="Form1" runat="server">
+	<!-- Header -->
+        <div class="header">
+	<div class="header-info">
+	  <div class="container">
+		<div class="logo">
+				<a href="default.aspx"><img src="../Content/images/logo.png" alt="" /></a>
+		</div>
+	             <div class="right">
+            
+			<p>Welcome <a href="#"><strong><asp:Literal runat="server" ID="ltrl_Username"></asp:Literal></strong></a></p>
+			<p class="small-nav"><a href="#">Help</a> / <a  href="#">Quick Info</a> / <asp:LinkButton ID="LinkButton1" runat="server" Text="Log Out" OnClick="LogOut"></asp:LinkButton></p>
+               <%--OnClick="LogOut"--%>
+		</div>
+		         <div class="clearfix"> </div>
+	  </div>
+	</div>
+</div>
+	<%--<div id="header">
+		<h1><a href="#">Patient Page</a></h1>
+		<div class="right">
+            
+			<p>Welcome <a href="#"><strong><asp:Literal runat="server" ID="ltrl_Username"></asp:Literal></strong></a></p>
+			<p class="small-nav"><a href="#">Help</a> / <a  href="#">Quick Info</a> / <asp:LinkButton ID="LinkButton1" runat="server" Text="Log Out" ></asp:LinkButton></p>
+               <%--OnClick="LogOut"--%>
+		<%--</div>--%>
+	<%--</div>--%>
+	<!-- End Header -->
+	
+	<!-- Navigation -->
+
+        <div class="container" >
+	       <div class="header-bottom">
+							<div class="menu">
+								<span class="menu-info"> </span>
+								<ul class="cl-effect-21">
+									<li><a href="default.aspx" class="active">Dashboard</a></li>
+									<li><a href="BookAppointment.aspx">Book Appointment</a></li>
+								 	<li><a href="ListAppointment.aspx">List Appointment</a></li>
+									<li><a href="cancelanappointment.aspx">Cancel an Appointment</a></li>
+									<li><a href="LabResult.aspx">Lab Result</a></li>
+                                    
+								</ul>
+							</div>
+					 </div>
+  </div>
+     
+
+	<!-- End Navigation -->
+	
+	<!-- Content -->
+	<div class="container" style="padding-top:5em; margin:auto">
+        
+		<asp:ContentPlaceHolder runat="server" ID="MainContent">
+
+		</asp:ContentPlaceHolder>
+		
+	</div>
+	
+	<!-- End Content -->
+    </form>
+
+<!-- End Shell -->
+
+<!-- Footer -->
+<div id="footer">
+	
+</div>
+<!-- End Footer -->
+    
+</body>
+</html>
+
