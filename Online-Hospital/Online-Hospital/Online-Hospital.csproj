@@ -67,6 +67,7 @@
     <Content Include="Admin\css\images\thank.gif" />
     <Content Include="Admin\css\style.css" />
     <Content Include="Admin\default.aspx" />
+    <Content Include="Admin\listdepartment.aspx" />
     <Content Include="Admin\ListDoctor.aspx" />
     <Content Include="Admin\ListPolicinic.aspx" />
     <Content Include="Content\css\bootstrap.css" />
@@ -111,6 +112,7 @@
     <Content Include="Content\logo_tasarım1.png" />
     <Content Include="default.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="Patient\cancelappointment.aspx" />
     <Content Include="Patient\css\images\error.gif" />
     <Content Include="Patient\css\images\header.gif" />
     <Content Include="Patient\css\images\nav.gif" />
@@ -157,6 +159,13 @@
     <Compile Include="Admin\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\listdepartment.aspx.cs">
+      <DependentUpon>listdepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\listdepartment.aspx.designer.cs">
+      <DependentUpon>listdepartment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\ListDoctor.aspx.cs">
       <DependentUpon>ListDoctor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -192,6 +201,13 @@
     </Compile>
     <Compile Include="main.Master.designer.cs">
       <DependentUpon>main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\cancelappointment.aspx.cs">
+      <DependentUpon>cancelappointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient\cancelappointment.aspx.designer.cs">
+      <DependentUpon>cancelappointment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Patient\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
