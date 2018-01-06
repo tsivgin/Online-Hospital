@@ -1,0 +1,2807 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Online-Hospital</name>
+    </assembly>
+    <members>
+        <member name="F:Online_Hospital.Admin.admin.Head1">
+            <summary>
+            Head1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.admin.head">
+            <summary>
+            head control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.admin.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.admin.ltrl_Username">
+            <summary>
+            ltrl_Username control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.admin.LinkButton1">
+            <summary>
+            LinkButton1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.admin.ContentPlaceHolder1">
+            <summary>
+            ContentPlaceHolder1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Admin.listdepartment">
+            <summary>
+            All department
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.listdepartment.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            If is not postback
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.listdepartment.FetchData">
+            <summary>
+            load all department
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.listdepartment.add_deparment_Click(System.Object,System.EventArgs)">
+            <summary>
+            go to add new department page
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.listdepartment.registerbtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            save a new department 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.listdepartment.edit_department_Click(System.Object,System.EventArgs)">
+            <summary>
+            go to edit department page of selection department
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.listdepartment.Save_Click(System.Object,System.EventArgs)">
+            <summary>
+            save a new information of department
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.listdepartment.delete_department_Click(System.Object,System.EventArgs)">
+            <summary>
+            delete of selection department
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.list">
+            <summary>
+            list control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.ltrl_SelectTime">
+            <summary>
+            ltrl_SelectTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.rbtnl_department">
+            <summary>
+            rbtnl_department control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.add_deparment">
+            <summary>
+            add_deparment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.edit_department">
+            <summary>
+            edit_department control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.delete_department">
+            <summary>
+            delete_department control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.adddepartment">
+            <summary>
+            adddepartment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.lbl_Succeed3">
+            <summary>
+            lbl_Succeed3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.lbl_Failed3">
+            <summary>
+            lbl_Failed3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.DepartmentName">
+            <summary>
+            DepartmentName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.RequiredName">
+            <summary>
+            RequiredName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.BuildingNo">
+            <summary>
+            BuildingNo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.RequiredBuildingNo">
+            <summary>
+            RequiredBuildingNo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.dwn_policinic">
+            <summary>
+            dwn_policinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.registerbtn">
+            <summary>
+            registerbtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.editdepartment">
+            <summary>
+            editdepartment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.namedepartment">
+            <summary>
+            namedepartment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.DeparmentBuildingNo">
+            <summary>
+            DeparmentBuildingNo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.RequiredFieldValidator2">
+            <summary>
+            RequiredFieldValidator2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.depofpolicinic">
+            <summary>
+            depofpolicinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.RequiredFieldValidator5">
+            <summary>
+            RequiredFieldValidator5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.policinic2">
+            <summary>
+            policinic2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.listdepartment.Save">
+            <summary>
+            Save control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Admin.ListDoctor">
+            <summary>
+            List all doctors
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListDoctor.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            If is not postback
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListDoctor.FetchData">
+            <summary>
+            Load Doctor information
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListDoctor.Add_doctor_Click(System.Object,System.EventArgs)">
+            <summary>
+            go to add doctor page
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListDoctor.registerbtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            register a new doctor
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListDoctor.insertdoctor">
+            <summary>
+            register doctorTable
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListDoctor.Edit_doctor_Click(System.Object,System.EventArgs)">
+            <summary>
+            go to edit doctor page of selection doctor
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListDoctor.Save_Click(System.Object,System.EventArgs)">
+            <summary>
+            save new information of doctor
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListDoctor.Delete_doctor_Click(System.Object,System.EventArgs)">
+            <summary>
+            delete of select doctor
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.list">
+            <summary>
+            list control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.ltrl_SelectTime">
+            <summary>
+            ltrl_SelectTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.rbtnl_doctor">
+            <summary>
+            rbtnl_doctor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.rbtn1_doctor">
+            <summary>
+            rbtn1_doctor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.lbl_TimeViolation">
+            <summary>
+            lbl_TimeViolation control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Add_doctor">
+            <summary>
+            Add_doctor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Edit_doctor">
+            <summary>
+            Edit_doctor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Delete_doctor">
+            <summary>
+            Delete_doctor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.add_doctorp">
+            <summary>
+            add_doctorp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.lbl_Succeed">
+            <summary>
+            lbl_Succeed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.lbl_Failed">
+            <summary>
+            lbl_Failed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Name">
+            <summary>
+            Name control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredName">
+            <summary>
+            RequiredName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.LastName">
+            <summary>
+            LastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredLastName">
+            <summary>
+            RequiredLastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.email">
+            <summary>
+            email control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Requiredemail">
+            <summary>
+            Requiredemail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.regexEmailValid">
+            <summary>
+            regexEmailValid control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.TC">
+            <summary>
+            TC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredTC">
+            <summary>
+            RequiredTC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.regexForTC">
+            <summary>
+            regexForTC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.password1">
+            <summary>
+            password1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Requiredpassword1">
+            <summary>
+            Requiredpassword1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.dwn_Hospitals">
+            <summary>
+            dwn_Hospitals control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.registerbtn">
+            <summary>
+            registerbtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.edit_doctor2">
+            <summary>
+            edit_doctor2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Name2">
+            <summary>
+            Name2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.lastname2">
+            <summary>
+            lastname2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredFieldValidator2">
+            <summary>
+            RequiredFieldValidator2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Age">
+            <summary>
+            Age control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredFieldValidator5">
+            <summary>
+            RequiredFieldValidator5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.gender">
+            <summary>
+            gender control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredFieldValidator6">
+            <summary>
+            RequiredFieldValidator6 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.email2">
+            <summary>
+            email2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredFieldValidator3">
+            <summary>
+            RequiredFieldValidator3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RegularExpressionValidator1">
+            <summary>
+            RegularExpressionValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.tcno">
+            <summary>
+            tcno control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RequiredFieldValidator4">
+            <summary>
+            RequiredFieldValidator4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.RegularExpressionValidator2">
+            <summary>
+            RegularExpressionValidator2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.departmentName">
+            <summary>
+            departmentName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.department">
+            <summary>
+            department control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListDoctor.Save">
+            <summary>
+            Save control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Admin.ListPersonnel">
+            <summary>
+            list all personnel
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPersonnel.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            If is not postback
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPersonnel.FetchData">
+            <summary>
+            Load Personnel
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPersonnel.Add_Personnel_Click(System.Object,System.EventArgs)">
+            <summary>
+            go add new personnel page
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPersonnel.registerbtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            register personnel
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPersonnel.Edit_Personnel_Click(System.Object,System.EventArgs)">
+            <summary>
+            go to edit personnel page of selection personnel
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPersonnel.Save_Click(System.Object,System.EventArgs)">
+            <summary>
+            save new information of personnel
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPersonnel.Delete_Personnel_Click(System.Object,System.EventArgs)">
+            <summary>
+            delete of select personnel
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.list">
+            <summary>
+            list control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.ltrl_SelectTime">
+            <summary>
+            ltrl_SelectTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.rbtnl_personnnel">
+            <summary>
+            rbtnl_personnnel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.lbl_TimeViolation">
+            <summary>
+            lbl_TimeViolation control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Add_Personnel">
+            <summary>
+            Add_Personnel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Edit_Personnel">
+            <summary>
+            Edit_Personnel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Delete_Personnel">
+            <summary>
+            Delete_Personnel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.add_personel">
+            <summary>
+            add_personel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.lbl_Succeed">
+            <summary>
+            lbl_Succeed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.lbl_Failed">
+            <summary>
+            lbl_Failed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Name">
+            <summary>
+            Name control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredName">
+            <summary>
+            RequiredName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.LastName">
+            <summary>
+            LastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredLastName">
+            <summary>
+            RequiredLastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.email">
+            <summary>
+            email control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Requiredemail">
+            <summary>
+            Requiredemail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.regexEmailValid">
+            <summary>
+            regexEmailValid control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.TC">
+            <summary>
+            TC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredTC">
+            <summary>
+            RequiredTC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.regexForTC">
+            <summary>
+            regexForTC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.password1">
+            <summary>
+            password1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Requiredpassword1">
+            <summary>
+            Requiredpassword1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.dwn_Hospitals">
+            <summary>
+            dwn_Hospitals control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.registerbtn">
+            <summary>
+            registerbtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.edit_personel">
+            <summary>
+            edit_personel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Name2">
+            <summary>
+            Name2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.lastname2">
+            <summary>
+            lastname2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredFieldValidator2">
+            <summary>
+            RequiredFieldValidator2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Age">
+            <summary>
+            Age control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredFieldValidator5">
+            <summary>
+            RequiredFieldValidator5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.gender">
+            <summary>
+            gender control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredFieldValidator6">
+            <summary>
+            RequiredFieldValidator6 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.email2">
+            <summary>
+            email2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredFieldValidator3">
+            <summary>
+            RequiredFieldValidator3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RegularExpressionValidator1">
+            <summary>
+            RegularExpressionValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.tcno">
+            <summary>
+            tcno control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RequiredFieldValidator4">
+            <summary>
+            RequiredFieldValidator4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.RegularExpressionValidator2">
+            <summary>
+            RegularExpressionValidator2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.policinicnamenow">
+            <summary>
+            policinicnamenow control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.policinic2">
+            <summary>
+            policinic2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.Save">
+            <summary>
+            Save control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPersonnel.delete_personel">
+            <summary>
+            delete_personel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Admin.ListPolicinic">
+            <summary>
+            list all policinic
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPolicinic.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            If not İspostback load fetchdata
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPolicinic.FetchData">
+            <summary>
+            load all policinic
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPolicinic.Add_policinic_Click(System.Object,System.EventArgs)">
+            <summary>
+            Add new policinic page
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPolicinic.registerbtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            go Add new policinic 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPolicinic.edit_policinic_Click(System.Object,System.EventArgs)">
+            <summary>
+            go edit policinic page of selection policinic
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPolicinic.Save_Click(System.Object,System.EventArgs)">
+            <summary>
+            Save edit policinic information
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Admin.ListPolicinic.delete_policinic_Click(System.Object,System.EventArgs)">
+            <summary>
+            Delete selection policinic
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.list">
+            <summary>
+            list control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.ltrl_SelectTime">
+            <summary>
+            ltrl_SelectTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.rbtnl_policinic">
+            <summary>
+            rbtnl_policinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.add_policinic">
+            <summary>
+            add_policinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.edit_policinic">
+            <summary>
+            edit_policinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.delete_policinic">
+            <summary>
+            delete_policinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.addpolicinic">
+            <summary>
+            addpolicinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.lbl_Succeed">
+            <summary>
+            lbl_Succeed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.lbl_Failed">
+            <summary>
+            lbl_Failed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.PolicinicName">
+            <summary>
+            PolicinicName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.RequiredName">
+            <summary>
+            RequiredName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.Address">
+            <summary>
+            Address control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.RequiredLastName">
+            <summary>
+            RequiredLastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.Phone">
+            <summary>
+            Phone control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.Requiredemail">
+            <summary>
+            Requiredemail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.registerbtn">
+            <summary>
+            registerbtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.editpolicinic">
+            <summary>
+            editpolicinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.lbl_Succeed2">
+            <summary>
+            lbl_Succeed2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.PolicinicName2">
+            <summary>
+            PolicinicName2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.Policinicaddress2">
+            <summary>
+            Policinicaddress2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.RequiredFieldValidator2">
+            <summary>
+            RequiredFieldValidator2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.PolicinicPhone2">
+            <summary>
+            PolicinicPhone2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.RequiredFieldValidator3">
+            <summary>
+            RequiredFieldValidator3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Admin.ListPolicinic.Save">
+            <summary>
+            Save control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:Online_Hospital.Database.#ctor">
+            <summary>
+            The database constructor.
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Database.startDB">
+            <summary>
+            starts the database.
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Database.stopDB">
+            <summary>
+            Stops Database.
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Database.GetData(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Returns the DataTable created by SqlCommand
+            </summary>
+            <param name="cmd"></param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:Online_Hospital.Database.SelectData(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Returns the DataRow created by SqlCommand
+            </summary>
+            <param name="cmd"></param>
+            <returns>DataRow</returns>
+        </member>
+        <member name="M:Online_Hospital.Database.SelectDataTable(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Creates dataTable with a cmd.
+            </summary>
+            <param name="cmd"></param>
+            <returns>DataTable.</returns>
+        </member>
+        <member name="M:Online_Hospital.Database.Execute(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            This method helps to execute the query.
+            </summary>
+            <param name="cmd"></param>
+            <returns>a boolean type.</returns>
+        </member>
+        <member name="F:Online_Hospital._default.users">
+            <summary>
+            users control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital._default.users2">
+            <summary>
+            users2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.login">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.login.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Control of login or not login
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.login.loginbtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            control of tc and password is correct
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.login.btnlogout_Click(System.Object,System.EventArgs)">
+            <summary>
+            End of login
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.login.pnlgiris">
+            <summary>
+            pnlgiris control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.login.TC">
+            <summary>
+            TC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.login.Password">
+            <summary>
+            Password control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.login.loginbtn">
+            <summary>
+            loginbtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.login.pnluser">
+            <summary>
+            pnluser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.login.lblusername">
+            <summary>
+            lblusername control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.login.btnlogout">
+            <summary>
+            btnlogout control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.login.lbl_UyariText">
+            <summary>
+            lbl_UyariText control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.login.lbl_UyariText2">
+            <summary>
+            lbl_UyariText2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.main.head">
+            <summary>
+            head control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.main.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.main.pnlgiris">
+            <summary>
+            pnlgiris control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.main.ContentPlaceHolder1">
+            <summary>
+            ContentPlaceHolder1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Patient.BookAppointment">
+            <summary>
+            Book new appointment
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Patient.BookAppointment.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            if is not post back
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Patient.BookAppointment.PopulateData">
+            <summary>
+            load policinic
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Patient.BookAppointment.dwn_policinic_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            load department of selection policinic
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Patient.BookAppointment.dwn_Departments_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            load doctor of selection department
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Patient.BookAppointment.dwn_Doctors_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            load calender
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Patient.BookAppointment.Calendar_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            load available work hours of doctor
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Patient.BookAppointment.btn_Reset_Click(System.Object,System.EventArgs)">
+            <summary>
+            reset page
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Patient.BookAppointment.btn_Confirm_Click(System.Object,System.EventArgs)">
+            <summary>
+            Save appointment is correct
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.ltrl_SelectHospital">
+            <summary>
+            ltrl_SelectHospital control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.dwn_policinic">
+            <summary>
+            dwn_policinic control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.ltrl_SelectDepartment">
+            <summary>
+            ltrl_SelectDepartment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.dwn_Departments">
+            <summary>
+            dwn_Departments control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.ltrl_SelectDoctor">
+            <summary>
+            ltrl_SelectDoctor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.dwn_Doctors">
+            <summary>
+            dwn_Doctors control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.ltlrl_Calendar">
+            <summary>
+            ltlrl_Calendar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.Calendar">
+            <summary>
+            Calendar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.ltrl_SelectDate">
+            <summary>
+            ltrl_SelectDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.ltrl_SelectedDate">
+            <summary>
+            ltrl_SelectedDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.ltrl_SelectTime">
+            <summary>
+            ltrl_SelectTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.rbtnl_AvailableTimes">
+            <summary>
+            rbtnl_AvailableTimes control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.lbl_TimeViolation">
+            <summary>
+            lbl_TimeViolation control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.btn_Continue">
+            <summary>
+            btn_Continue control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.btn_Reset">
+            <summary>
+            btn_Reset control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.BookAppointment.btn_Confirm">
+            <summary>
+            btn_Confirm control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Patient.cancelanappointment">
+            <summary>
+            Cancel an appointment
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Patient.cancelanappointment.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            If is not post back load fetchdata
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Patient.cancelanappointment.fetchdata">
+            <summary>
+            load appointments of patient
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Patient.cancelanappointment.deletebtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            delete of selection appointment
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Patient.cancelanappointment.ltrl_SelectTime">
+            <summary>
+            ltrl_SelectTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.cancelanappointment.rbtnl_cancelapp">
+            <summary>
+            rbtnl_cancelapp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.cancelanappointment.lbl_TimeViolation">
+            <summary>
+            lbl_TimeViolation control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.cancelanappointment.deletebtn">
+            <summary>
+            deletebtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Patient.LabResult">
+            <summary>
+            lab results of patient
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Patient.LabResult.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            load labresults of patient
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Patient.LabResult.labresult">
+            <summary>
+            labresult control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Patient.ListAppointment">
+            <summary>
+            all appointments of patient
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Patient.ListAppointment.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            load appointments of patient
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Patient.ListAppointment.listappointment">
+            <summary>
+            listappointment control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Patient.patient">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Patient.patient.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            is user login?
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Patient.patient.PopulateData">
+            <summary>
+            load user name
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Patient.patient.LogOut(System.Object,System.EventArgs)">
+            <summary>
+            logout
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Patient.patient.head">
+            <summary>
+            head control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.patient.Form1">
+            <summary>
+            Form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.patient.ltrl_Username">
+            <summary>
+            ltrl_Username control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.patient.LinkButton1">
+            <summary>
+            LinkButton1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Patient.patient.MainContent">
+            <summary>
+            MainContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Personnel.editappointment">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Personnel.editappointment.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Personnel.editappointment.Savebtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            If all information is correct save
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Personnel.editappointment.Control_Click(System.Object,System.EventArgs)">
+            <summary>
+            If tc_no is saved go select appointment
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Personnel.editappointment.Control2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Select one appointment
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Personnel.editappointment.Calendar_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Select a new available date 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.lbl_Succeed">
+            <summary>
+            lbl_Succeed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.lbl_Failed">
+            <summary>
+            lbl_Failed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.tckontrol">
+            <summary>
+            tckontrol control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.TC">
+            <summary>
+            TC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.RequiredTC">
+            <summary>
+            RequiredTC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.appointments">
+            <summary>
+            appointments control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.Control">
+            <summary>
+            Control control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.Control2">
+            <summary>
+            Control2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.info">
+            <summary>
+            info control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.nowtime">
+            <summary>
+            nowtime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.newtime">
+            <summary>
+            newtime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.nowdate">
+            <summary>
+            nowdate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.RequiredDate">
+            <summary>
+            RequiredDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.ltlrl_Calendar">
+            <summary>
+            ltlrl_Calendar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.Calendar">
+            <summary>
+            Calendar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.ltrl_SelectDate">
+            <summary>
+            ltrl_SelectDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.ltrl_SelectedDate">
+            <summary>
+            ltrl_SelectedDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.ltrl_SelectTime">
+            <summary>
+            ltrl_SelectTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.rbtnl_AvailableTimes">
+            <summary>
+            rbtnl_AvailableTimes control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.lbl_TimeViolation">
+            <summary>
+            lbl_TimeViolation control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.editappointment.Savebtn">
+            <summary>
+            Savebtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Personnel.EnterLabResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Personnel.EnterLabResult.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Is not post back load fetch
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Personnel.EnterLabResult.fetch">
+            <summary>
+            Loading Department
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Personnel.EnterLabResult.savebtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            Saves the lab result.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Personnel.EnterLabResult.lbl_Succeed">
+            <summary>
+            lbl_Succeed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.EnterLabResult.lbl_Failed">
+            <summary>
+            lbl_Failed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.EnterLabResult.labresult">
+            <summary>
+            labresult control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.EnterLabResult.TC">
+            <summary>
+            TC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.EnterLabResult.enterlabresult">
+            <summary>
+            enterlabresult control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.EnterLabResult.departmentname">
+            <summary>
+            departmentname control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.EnterLabResult.savebtn">
+            <summary>
+            savebtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.personnel.head">
+            <summary>
+            head control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.personnel.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.personnel.ltrl_Username">
+            <summary>
+            ltrl_Username control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.personnel.logout">
+            <summary>
+            logout control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.personnel.ContentPlaceHolder1">
+            <summary>
+            ContentPlaceHolder1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Personnel.setdoctorworks">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Personnel.setdoctorworks.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Personnel.setdoctorworks.Calendar_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Select one date
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Personnel.setdoctorworks.Control_Click(System.Object,System.EventArgs)">
+            <summary>
+            Control of tc no
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Online_Hospital.Personnel.setdoctorworks.Control2_Click(System.Object,System.EventArgs)">
+            <summary>
+            If information is correct save
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.lbl_Succeed">
+            <summary>
+            lbl_Succeed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.lbl_Failed">
+            <summary>
+            lbl_Failed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.TC">
+            <summary>
+            TC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.RequiredTC">
+            <summary>
+            RequiredTC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.ltlrl_Calendar">
+            <summary>
+            ltlrl_Calendar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.Calendar">
+            <summary>
+            Calendar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.ltrl_SelectDate">
+            <summary>
+            ltrl_SelectDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.ltrl_SelectedDate">
+            <summary>
+            ltrl_SelectedDate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.Control">
+            <summary>
+            Control control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Personnel.setdoctorworks.Control2">
+            <summary>
+            Control2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Online_Hospital.Register">
+            <summary>
+            Save of authenticated
+            </summary>
+        </member>
+        <member name="M:Online_Hospital.Register.registerbtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            Save user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Online_Hospital.Register.lbl_Succeed">
+            <summary>
+            lbl_Succeed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.lbl_Failed">
+            <summary>
+            lbl_Failed control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.Name">
+            <summary>
+            Name control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.RequiredName">
+            <summary>
+            RequiredName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.LastName">
+            <summary>
+            LastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.RequiredLastName">
+            <summary>
+            RequiredLastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.Gender">
+            <summary>
+            Gender control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.email">
+            <summary>
+            email control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.Requiredemail">
+            <summary>
+            Requiredemail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.regexEmailValid">
+            <summary>
+            regexEmailValid control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.TC">
+            <summary>
+            TC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.RequiredTC">
+            <summary>
+            RequiredTC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.regexForTC">
+            <summary>
+            regexForTC control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.password1">
+            <summary>
+            password1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.Requiredpassword1">
+            <summary>
+            Requiredpassword1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.password2">
+            <summary>
+            password2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.Requiredpassword2">
+            <summary>
+            Requiredpassword2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Online_Hospital.Register.registerbtn">
+            <summary>
+            registerbtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>
